@@ -1,0 +1,58 @@
+body
+{
+    font-family:arial; 
+    background-color: cadetblue;
+    padding: 30px;
+}
+h1
+{
+    text-align: center;
+    text-shadow: 1px 1px 3px #111111;
+    background-image: url(images/backgrd.jpg);
+    background-position: center;
+   
+}
+h2
+{
+    color:bisque; 
+
+}
+h3
+{
+    color:burlywood;   
+}
+p
+{
+    text-indent: 40px;
+    padding-left: 20px;
+}
+b
+{
+    color:lightpink;
+    padding-left: none;
+}
+a
+{
+    cursor:pointer;
+}
+a:link
+{
+    color:midnightblue;
+}
+a:visited
+{
+    color:green;
+}
+a:hover
+{
+    color:azure;
+}
+a:active
+{
+    color:antiquewhite;
+}
+ul
+{
+    list-style-image: url("images/50cslogo.png");
+    padding-left: 100px;
+}
