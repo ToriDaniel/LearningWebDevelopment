@@ -1,0 +1,156 @@
+<html>
+    <body>
+        <h1>Data</h1>
+            <h2>Norms and Exceptions</h2>
+                <dl>
+                <dt><b>Norm</b></dt>
+                <dl>Also called the smooth</dl>
+                <dl>The values that closely relate to one another</dl>
+                <dt><b>Exceptions</b></dt>
+                <dl>The values that skew the data due to the fact that they are widely different from the other values in the set</dl>
+                </dl>
+      
+                <div>
+                    <p>To determine what values fall into the norm and whether we have any exceptions, we must take use a few <a href="MMMR.html">techniques</a> to view the patterns and trends of the data.</p> 
+      
+                    <p>The <b>Distribution</b> is a term used to describe all of the values in a category. </p>
+      
+                    <p> "<b>A visualization designer should never rely on a single statistic or a single chart or map</b> when doing exploratory work," (Cairo, ch.6) </p>
+                </div>
+            <h2>Important terms to know</h2>
+                <dl>
+                <dt>Measures of central tendency</dt>
+                    <dd>gives the <b>level of distribution</b> or the average size of numbers and their center point.</dd>
+                    <dt>Parameter</dt>
+                    <dd>a number that summarizes or describes an entire population</dd>
+                <dt>Statistic</dt>
+                    <dd>the term used to describe when just a sample of data is taken and the same parameter is found</dd>
+                </dl>
+        
+                <h3>Mode</h3>
+                    <div>
+                        <p>value that appears most often</p>
+                        <p><b>Unimode</b> is a distribution that only has one mode. If there are more than one then they would be called bimodal, trimodal… and so on depending on how many modes there are.</p>
+                    </div>
+                <h3>Median</h3>
+                    <div>
+                        <p>The middle value of the data when in order from smallest to largest</p>
+                        <p>This is also resistant to outliers because it would be unaffected. For example, if you added on an outlier to the end of a large set of vales, the middle number would either go up to the next number or to the middle of two values. </p>
+                    </div>
+                <h3>Mean</h3>
+                    <div>    
+                        <p> (the average) adds all the data together, then divides it by how many values there are.</p>
+                    </div>
+                <h3>Range</h3>
+                    <div>
+                        <p>The difference between the largest and smallest values in a data set</p>
+                    </div>
+                <h3>Outliers</h3>
+                    <div>
+                        <p>values that are so far out of the norm that they throw off measure of central tendency if they are not addressed</p>
+                        <p>if mean and median differ by a large margin, this means that there is something in the data, such as an outlier, that needs to be addressed through means such as <a href="weight.html">weighting</a>.</p>
+                    </div>
+        
+                <h3>Histograms</h3>
+                    <div>
+                        <p>A common way to display these measures of central tendency is to use a histogram. Histograms are a <b>visualization</b> of data that shows bars to represent the <b>frequency</b> (or how many instances) of each value we have in our data. This allows us to see the <b>shape</b> of our data. </p>
+                    </div>
+        
+                <h3>Weighting</h3>
+                    <div>
+                        <p>To calculate the mean of groups of data, and the groups are of different sizes, you need to perform a different calculation</p> <p>This ensures that smaller groups are not calculated using the same weight as bigger groups.</p>
+                    </div>
+        
+            <h2>What is correlation used for?</h2>
+                <p>It is used to talk about the association between data and how closely they are related using the correlation coefficient.</p>
+            <h2>What is the difference between correlation and causation?</h2>
+                <p>Correlation means that when one variable changes, the other one also changes, but the change in variable x is not directly responsible for the change in y. </p>
+            <h2>Compare and Contrast 3 different ways to visually show relationships.</h2>
+                <p>
+                    A <b>scatter plot with a trend line</b> are best used when the data closely follow the trend line and there aren't too many 'outliers'. It is clean and to the point.
+                    A <b>locally weighted scatter plot smoothing method</b> can be used when a single linear approach to summarizing the data could be misleading. 
+                    slope
+                    <b>Matrices</b> are best used when there are more than just 2 variables that need to be compared in the data. 
+                </p>
+    
+            <h2>Standard Deviation and Percentiles</h2>
+                <div class = dist> 
+                    <ul>
+                        <li>There are four elements of Distribution: Level, Spread, Shape, Outliers</li>
+                
+                        <li> You can use standard deviation or percentiles to give numerical summaries of these distributions. Giving just the average doesn’t give the whole story.
+                        </li>
+                
+                        <li><b>Standard deviation</b> lets the viewer know how much the data deviates from the mean. </li>
+                
+                        <li><b>Percentiles </b>break up the data to tell where the data falls on the line between the smallest and largest value in the data. This can also be represented through box plots. </li>
+                    </ul>
+                </div>
+            <h2>Visual Representations</h2>
+                <div class=vis>
+                    <ul>
+                        <li>Frequency charts are an alternative to histograms and it shows the range of the data as well as the modes.</li>
+            
+                        <li>To give a more complete story, it is also possible to use more than one visualization to present the data.</li>
+                        <li>When looking at visualizations of data, it can be difficult to remember that data is also dependant on population size. Small populations will have more variation than large populations.</li>
+                        <li>A visualization that takes this into account is a funnel plot, which plots the data in relation to the population size. </li>
+                    </ul>
+                </div>
+        
+            <h2>What is data and how does d3 use it?</h2>
+           
+     
+            <script type="text/javascript"?>
+            
+            var sectionOne = ["", "'Data is structured information with potential for meaning....stored in a digital file, typically in either text or binary form. ' p. 66", "d3 used with .txt, .json or .csv files and the data must be attached or bound to elements within the page."];  
+            d3.select("body").selectAll('div.one').data(sectionOne).enter().append('p').text(function(d){return d;});
+            
+            </script>
+        <div class="two">
+           <h2> Chaining </h2>
+        </div>
+            <script type="text/javascript"?>  
+                    
+                var sectionTwo = ["", "Chain syntax is when you join multiple methods together with periods so that the code performs multiple actions within the same line of code.", "The order matters: always make sure that the output of an element matches the input of the one it is chained in front of. ", "method1(object).method2(string) ->  returns object.", "(input type: object) method1 (output type: string)  .   (input type: string) method2 (output type: object)", "*Functions and methods both refer to a part of code that takes an argument, performs an action (or multiple) and returns something.", "You can always break apart a chain syntax by saving each part to a variable."];
+            
+                d3.select("body").selectAll('div.two').data(sectionTwo).enter().append('p').text(function(d){return d;});
+              
+            </script>
+        <div class = "three">
+            <h2>the breakdown of code</h2>
+            <dl>
+            <dt>d3</dt>
+                <dd>references the object called d3 where the methods we want are.</dd>
+            <dt>.select("")</dt>
+               <dd> css selector that returns the DOM element specified in the parentheses.</dd>
+           <dt> .append("")</dt>
+               <dd> takes the css elememt specified in the parentheses and tacks it onto the end of whatever element you previously specified before the period. </dd>
+            <dt>.text("")</dt>
+                <dd>adds the text (which is a string) written in the parentheses and inserts it into the DOM elements that was specified before the period. </dd>
+            </dl>
+        </div>
+            
+        <div class="four"> 
+            <h2>Binding data to DOM elements.</h2> 
+
+            
+        </div> 
+            <script type="text/javascript"?>
+                var sectionFour = [" ", "An example of the code used to bind data to elements of an html page and display the elements within the array is:", "d3.select('body').selectAll('p').data(arrayOfData).enter().append('p').text(function(d){return d;});"];  
+        
+                d3.select("body").selectAll('div.four').data(sectionFour).enter().append('p').text(function(d){return d;});
+            </script>
+        
+        <div class ="five">
+        <h2>An example of using binding data to DOM elements within this code:</h2>
+        </div>
+        
+            <script type="text/javascript"?>  
+        
+                var sectionFive = ["", "This entire webpage...don't believe me? Inspect the code on this page. Well everything except the definition list because that would be just too much."];
+            
+                 d3.select("body").selectAll('div.five').data(sectionFive).enter().append('p').text(function(d){return d;});
+        
+            </script>
+    </body>
+</html>

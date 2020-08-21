@@ -1,0 +1,77 @@
+<html> 
+    <body>
+        <h1>JavaScript</h1>
+            <h2>Question 1</h2>
+                <h3>Create a function to get the grade from a quiz object</h3>
+                    <pre>
+            
+                function getGrade(quiz)
+                {
+                    return quiz.grade;
+                }
+                    </pre>
+                <p>The function above takes a specific penguin's quiz object (passed in as 'quiz') and returns the grade va.</p>
+        
+                <p>Example of how you would call the function:</p>
+        
+                <pre>
+            
+                    getGrade(classroom[0].quizes[0]);
+            
+                </pre>
+        
+            <h2>Question 2</h2>
+                <h3>Find the mean of the quiz grades for the first penguin</h3>
+        
+                    <pre>
+            
+                var vals = classroom[0].quizes.map(getGrade);
+                d3.mean(vals);
+
+            
+            
+                    </pre>
+                <p>The first line creates a variable with the identifier 'vals' and a value equal to the array of quiz grades created from the map function. <b>Map</b> takes an object and transforms it to an array. </p>
+        
+                <p>The second line uses the d3 library's mean function to find the mean of the values in the array passed in to it (in this case the array vals).</p>
+            <h2>Question 3</h2>
+                <h3>Create a function to find the mean of the quiz grades for a given penguin</h3>
+        
+                <pre>
+            
+                var gradeMeans = function(peng)
+	            {
+		           var quizzes = peng.quizes.map(getGrade);
+		           return d3.mean(quizzes);
+	            }
+
+            
+                </pre>
+        
+                <p>This function takes in a penguin object as its parameter. The variable quizzes holds the array of that specific penguin's quiz scores. The last line returns the mean of the quizzes array. </p>
+        
+            <h2>Question 4</h2>
+                <h3>Create an array of the mean quiz score of each penguin. Use one line of “code”</h3>
+        
+                <pre>
+        
+                    classroom.map(gradeMeans);
+        
+                </pre>
+            
+                <p>This line takes the array 'classroom' and maps it to an array using the function gradeMeans to find the mean quiz scores for all the penguins. </p>
+        
+                <p>Fun fact: we originally tried to make it more complicated than it actually was by trying to use a forEach function.</p>
+        
+            <h2>Question 5</h2>
+                <h3>Find the mean of all the quiz scores of the class</h3>
+        
+                <pre>
+            
+                d3.mean(classroom.map(gradeMeans));
+            
+                </pre>
+        
+                <p>This solution just takes the answer to the last question and uses the newly created array to find the mean of all the penguin quizzes.</p>
+    </body>
+</html>

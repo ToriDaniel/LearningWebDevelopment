@@ -1,0 +1,128 @@
+body
+{
+    background-color:#557A95;
+}
+.Title
+{
+    font-size:70pt;
+    text-emphasis:Bold;
+    text-align:center;
+}
+.Description
+{
+    padding-top:20pt;
+    padding-bottom:100pt;
+    width:auto;
+    text-align:center;
+    font-size: 25pt;
+    color:5D5C61;
+}
+.Charts
+{
+    height:400px;
+    width:100%;
+    padding-left:50px;
+    
+}
+.Animations
+{
+    height:400px;
+    width:100%;
+    text-align:end;
+    
+}
+.Graphs
+{
+    height:400px;
+    width:100%;
+    padding-left:50px;
+}
+.CSS
+{
+    height:400px;
+    width:100%;
+    text-align:end;
+    padding-right:50px;
+}
+p
+{
+    font-size:50pt;
+    float:left;
+    padding-right:10%;
+}
+.colorBlockL
+{
+    width:60%;
+    height:200px;
+    background-color:#B1A296;
+}
+.colorBlockR
+{
+    width:60%;
+    height:200px;
+    float:right;
+    background-color:#B1A296;
+}
+img
+{
+    width:600px;
+    height:auto;
+    float:left;
+    
+}
+
+/*Stylish and Sophisticated Theme
+MID GREY #5D5C61
+LIGHT GREY #379683
+LIGHT BLUE #7395AE
+MID BLUE #557A95
+TAN #B1A296
+*/
+
+/* Lively and Inviting
+MID PEACH PINK #E7717D
+LIGHT BLUE GREY #C2CAD0
+LIGHT GREY #C2B9B0
+MID DARK BROWN TAUPE #7E685A
+LIGHT GREEN #AFD275
+*/
+
+/*Elegant Yet Approachable
+Light Rose Gold #EDC7B7
+Light Cream Grey #EEE2DC
+Light Grey #BAB2B5
+Dark Blue #123C69
+Dark rRose #AC3B61
+*/
+
+/* Sleek and Futuristic
+Dark Grey #2C3531
+Dark Teal #116466
+Mid Tone Beige #D9B08C
+Lighter Mid Beige #FFCB9A
+Light Blue  #D1E8E2
+*/
+
+/* Minimal Yet Warm
+Light Cream #EAE7DC
+Beige       #D8C3A5
+Mid Grey    #8E8D8A
+Mid Peach   #E98074
+Dark Peach  #E85A4F
+*/
+
+/* Clean and Energetic
+Mid purple blue     #5680E9
+light green blue    #84CEEB
+mid blue            #5AB9EA
+light purple        #C1C8E4
+mid dark purple     #8860D0
+*/
+
+/*Classy and Traditional
+Mid Grey            #5F6366
+Mid blue            #4D6D9A
+light lavendar blue #86B3D1
+light blue green    #99CED3
+light pink          #EDB5BF
+*/
