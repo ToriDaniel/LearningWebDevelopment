@@ -1,0 +1,59 @@
+<html>
+    <body>
+         <head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+   </head>
+
+        <div id="Pie">
+        <h1>Pie Charts</h1> 
+        <h4>Need to know:</h4>
+        <ul>
+            <li>the inner and outer radius for each wedge</li>
+            <li>the starting and ending angles</li>
+            </ul>
+        <p>Pie layout's purpose is to do all these calculations for you.</p>
+        </div>
+        
+        <div id="Donut">
+        <h1>Donuts</h1>
+        <p>These charts only differ from pie charts by changing the inner Radius specifications.</p>
+        </div>
+        
+        <div id="Stack">
+        <h1>Stack Layout</h1>
+        <p>Converts 2D data into stacked data.</p>
+        <h3>Can be used to create:</h3>
+        <ul>
+            <li>stacked bar charts</li>
+            <li>stackd area charts</li>
+            <li>streamgraphs</li>
+        </ul> 
+        </div>
+        
+        <div id="Force">
+        <h1>Force Layout</h1>
+        <p>Simulates physical forces acting upon elements using graphs. </p>
+           <h3> There are a few different force options:</h3>
+            <dl>
+            <dt>forceManyBody()</dt>
+                <dd>acts on all nodes so that they either attract or repel all other nodes.</dd>
+            <dt>forcelink()</dt>
+                <dd>causes the nodes to struggle against competing forces to achieve a specified distance.</dd>
+            <dt>forceCenter()</dt>
+                <dd>Centers the simulation around a specified point.</dd>
+            </dl>
+            <p>Using force layouts, you can also create draggable elements.</p>
+        </div>
+     
+
+            <h1>Charts</h1>
+                <h2>What are the pro's and cons of 3 visualizations techniques discussed in chapter 8? </h2>
+                <ol>
+                    <li><b>Seasonal subseries charts</b> are great for comparing small populations to larger populations but if they are used on their own, they can be misleading since the entire population is not being taken into account.</li>
+                    <li><b>Calculating Indexes</b>is a great way to present itme series data and relative change. The downside is that the graphics can sometimes be left looking cluttered so it is necessary to break it up into multiple smaller graphics. </li>
+                    <li><b>Color Coded Horizon Charts</b> are great for taking a lot of data and making it aesthetically pleasing as well as easy to take in. The downfall is for anyone with any degree of colorblindness will not be able to read it.</li>
+                </ol>
+<script src="charts.js"></script>
+    </body>
+</html>
+        

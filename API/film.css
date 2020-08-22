@@ -1,0 +1,64 @@
+body
+{
+    width: 1040px;
+    height:1000px;
+    background-color:#fbffd4;
+
+}
+
+#title
+{
+    height: 60px;
+    padding-top:10px;
+    text-align: center;
+    background-color: #fcc1df;
+    
+}
+
+#rules
+{
+    font-size:20px;
+    font-weight: bold;
+    background-color: #fcc1df;
+    
+}
+#gameHint 
+{
+    float:right;
+    padding-top:20px;
+    background-color: #afb3e0;
+}
+#gameAns 
+{
+    float:right;
+    padding-top:20px;
+    background-color: #ede0ff;
+
+    
+}
+
+#gameAns > div
+{
+    
+    width: 250px;
+    height: 316px;
+    padding-left: 20px;
+   
+}
+#gameHint > div
+{
+    width: 250px;
+    height: 316px;
+    padding-left: 20px;
+}
+#gameDesc 
+{
+    float:left;
+    width: 500px;
+    background-color:#cff3ff;
+    
+}
+p
+{
+    height:300px;
+}

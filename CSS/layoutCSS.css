@@ -1,0 +1,89 @@
+body
+{
+    background-color: darkcyan;
+    height: 500px;
+    
+    
+}
+
+h1
+{
+    background-color: darkorange;
+    text-align: center;
+    color:darkblue;
+}
+
+ul
+{
+    background-color: blueviolet;
+}
+.one 
+{
+    float:left;
+    position: relative;
+    left:50px;
+    background-color: orange;
+}
+.two {
+    float:left;
+    position: relative;
+    left:50px;
+    top:150px;
+    background-color: orange;
+}
+.three {
+    float:left;
+    position: relative;
+    left:150px;
+    top: 500px;
+    background-color: orange;
+}
+.four {
+    float:left;
+    position: relative;
+    left:100px;
+    top: 100px;
+    background-color: orange;
+}
+.five {
+    float:left;
+    position: relative;
+    left:150px;
+    top: 300px;
+    background-color: orange;
+}
+.six {
+    float:left;
+    position: relative;
+    left:200px;
+    top: 500px;
+    background-color: orange;
+}
+.seven {
+    float:left;
+    position: relative;
+    left:100px;
+    top: 100px;
+    background-color: orange;
+}
+.eight {
+    float:left;
+    position: relative;
+    left:500px;
+    top: 150px;
+    background-color: orange;
+}
+.nine {
+    float:left;
+    position: relative;
+    left:180px;
+    top: 200px;
+    background-color: orange;
+}
+.ten {
+    float:left;
+    position: relative;
+    left:100px;
+    top: 500px;
+    background-color: orange;
+}
