@@ -17,21 +17,21 @@ body
     font-size: 25pt;
     color:5D5C61;
 }
-.Charts
+.Learn
 {
     height:400px;
     width:100%;
     padding-left:50px;
     
 }
-.Animations
+.HTML
 {
     height:400px;
     width:100%;
     text-align:end;
     
 }
-.Graphs
+.JavaScript
 {
     height:400px;
     width:100%;
@@ -54,6 +54,7 @@ p
 {
     width:60%;
     height:200px;
+    float:left;
     background-color:#B1A296;
 }
 .colorBlockR
