@@ -1,0 +1,32 @@
+body
+{
+    background-color:#EEE2DC;
+    text-align:center;
+    padding-left:15%;
+    padding-right:15%;
+}
+h1
+{
+    background-color:#123C69;
+    height:50px;
+    color:EEE2DC
+}
+h2
+{
+    background-color:darkgrey;
+}
+img
+{
+    width:50pt;
+}
+.data a
+{
+    font-size:45pt;
+    color:navy;
+    padding:20pt;
+    
+}
+.data
+{
+    padding-top:20pt;
+}

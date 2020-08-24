@@ -1,12 +1,14 @@
 body
 {
-    background-color:#557A95;
+    background-color:#123C69;
 }
 .Title
 {
     font-size:70pt;
     text-emphasis:Bold;
     text-align:center;
+    color:#BAB2B5;
+    background-color:
 }
 .Description
 {
@@ -15,7 +17,7 @@ body
     width:auto;
     text-align:center;
     font-size: 25pt;
-    color:5D5C61;
+    color: #BAB2B5;
 }
 .Learn
 {
@@ -55,14 +57,14 @@ p
     width:60%;
     height:200px;
     float:left;
-    background-color:#B1A296;
+    background-color:#BAB2B5;
 }
 .colorBlockR
 {
     width:60%;
     height:200px;
     float:right;
-    background-color:#B1A296;
+    background-color:#BAB2B5;
 }
 img
 {
@@ -89,35 +91,11 @@ LIGHT GREEN #AFD275
 */
 
 /*Elegant Yet Approachable
-Light Rose Gold #EDC7B7
-Light Cream Grey #EEE2DC
-Light Grey #BAB2B5
-Dark Blue #123C69
-Dark rRose #AC3B61
-*/
-
-/* Sleek and Futuristic
-Dark Grey #2C3531
-Dark Teal #116466
-Mid Tone Beige #D9B08C
-Lighter Mid Beige #FFCB9A
-Light Blue  #D1E8E2
-*/
-
-/* Minimal Yet Warm
-Light Cream #EAE7DC
-Beige       #D8C3A5
-Mid Grey    #8E8D8A
-Mid Peach   #E98074
-Dark Peach  #E85A4F
-*/
-
-/* Clean and Energetic
-Mid purple blue     #5680E9
-light green blue    #84CEEB
-mid blue            #5AB9EA
-light purple        #C1C8E4
-mid dark purple     #8860D0
+Light Rose Gold     #EDC7B7
+Light Cream Grey    #EEE2DC
+Light Grey          #BAB2B5
+Dark Blue           #123C69
+Dark rRose          #AC3B61
 */
 
 /*Classy and Traditional
